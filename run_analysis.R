@@ -82,5 +82,5 @@ names(avg_mean_std_per_subject_activity)[1] <- "subject_id"
 names(avg_mean_std_per_subject_activity)[2] <- "activity"
 
 # save data frames to local csv files
-write.csv(measurements_mean_std, "measurements_mean_std.csv", row.names = FALSE)
-write.csv(avg_mean_std_per_subject_activity, "avg_mean_std_per_subject_activity.csv", row.names = FALSE)
+write.table(measurements_mean_std, "measurements_mean_std.txt", row.names = FALSE)
+write.table(avg_mean_std_per_subject_activity, "avg_mean_std_per_subject_activity.txt", row.names = FALSE)
