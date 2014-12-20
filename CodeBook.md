@@ -1,7 +1,7 @@
 Human Activity Recognition Data Set
 ===================================
 
-This repository has a script developed to colect and process data from the reasearch described [here](url: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
+This repository has a script developed to colect and process data from the reasearch described [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
 The script basically merge the training and test data set and extract only the mean and standard deviation of each measurement made.
 
